@@ -10,7 +10,7 @@
     include 'Includes/templates/header.php';
 
     //Check If user is already logged in
-    if(isset($_SESSION['username_yahya_car_rental']) && isset($_SESSION['password_yahya_car_rental']))
+    if(isset($_SESSION['username_car_rental']) && isset($_SESSION['password_car_rental']))
     {
 ?>
         <!-- Begin Page Content -->
