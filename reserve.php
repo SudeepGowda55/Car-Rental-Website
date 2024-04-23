@@ -153,21 +153,21 @@
 								<div class = "client_details">
 									<div class = "form-group">
 										<label for="full_name">Full Name</label>
-										<input type = "text" class = "form-control" placeholder = "John Doe" name = "full_name" v-model = 'full_name'>
+										<input type = "text" class = "form-control" placeholder = "Vishruth VS" name = "full_name" v-model = 'full_name'>
 										<div class="invalid-feedback" style = "display:block" v-if="full_name === null">
 											Full name is required
 										</div>
 									</div>
 									<div class = "form-group">
 										<label for="client_email">E-mail</label>
-										<input type = "email" class = "form-control" name = "client_email" placeholder = "abc@mail.xyz" v-model = 'client_email'>
+										<input type = "email" class = "form-control" name = "client_email" placeholder = "vishruthvs@email.com" v-model = 'client_email'>
 										<div class="invalid-feedback" style = "display:block" v-if="client_email === null">
 											E-mail is required
 										</div>
 									</div>
 									<div class = "form-group">
 										<label for="client_phonenumber">Phone numbder</label>
-										<input type = "text"  name = "client_phonenumber" placeholder = "0123456789" class = "form-control" v-model = 'client_phonenumber'>
+										<input type = "text"  name = "client_phonenumber" placeholder = "9999999999" class = "form-control" v-model = 'client_phonenumber'>
 										<div class="invalid-feedback" style = "display:block" v-if="client_phonenumber === null">
 											Phone number is required
 										</div>
