@@ -42,10 +42,10 @@ CREATE TABLE `cars` (
 --
 
 INSERT INTO `cars` (`id`, `car_name`, `brand_id`, `type_id`, `color`, `model`, `description`) VALUES
-(1, 'Porsche Boxster', 6, 4, 'Red', '2017', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent venenatis in odio quis cursus. Pel'),
-(2, 'Audi A5', 1, 4, 'Red', '2017', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent venenatis in odio quis cursus. Pel'),
-(3, 'Mercedes-Benz CLS', 4, 4, 'Blue', '2019', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent venenatis in odio quis cursus. Pel'),
-(4, 'Audi A7', 1, 6, 'Blue', '2019', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent venenatis in odio quis cursus. Pel');
+(1, 'Porsche Boxster', 6, 4, 'Red', '2017', 'Sleek, agile, and exhilarating, the Porsche Boxster delivers the ultimate driving experience with its timeless design and powerful performance, making every journey a thrill.'),
+(2, 'Audi A5', 1, 4, 'Red', '2017', 'Sophisticated and sporty, the Audi A5 combines elegant design with dynamic performance, offering a luxurious driving experience that captivates both heart and mind.'),
+(3, 'Mercedes-Benz CLS', 4, 4, 'Blue', '2019', 'Crafted to redefine elegance and performance, the Mercedes-Benz CLS embodies luxury with its sleek design and cutting-edge technology, offering an unmatched driving experience that exudes sophistication and power.'),
+(4, 'Audi A7', 1, 6, 'Blue', '2019', 'The Audi A7 epitomizes luxury and innovation, blending striking design with advanced technology to deliver a dynamic driving experience that exceeds expectations at every turn.');
 
 -- --------------------------------------------------------
 
@@ -89,8 +89,8 @@ CREATE TABLE `car_types` (
 
 INSERT INTO `car_types` (`type_id`, `type_label`, `type_description`) VALUES
 (1, 'Sedan', 'A sedan has four doors and a traditional trunk.'),
-(4, 'Coupe', 'A coupe has historically been considered a two-door car with a trunk and a solid roof.'),
-(6, 'HATCHBACK', 'Traditionally, the term \"hatchback\" has meant a compact or subcompact sedan with a squared-off roof and a rear flip-up hatch door that provides access to the vehicle\'s cargo area instead of a conventional trunk.');
+(2, 'Coupe', 'A coupe has historically been considered a two-door car with a trunk and a solid roof.'),
+(3, 'Hatchback', 'Traditionally, the term \"Hatchback\" has meant a compact or subcompact sedan with a squared-off roof and a rear flip-up hatch door that provides access to the vehicles cargo area instead of a conventional trunk.');
 
 -- --------------------------------------------------------
 
@@ -110,7 +110,8 @@ CREATE TABLE `clients` (
 --
 
 INSERT INTO `clients` (`client_id`, `full_name`, `client_email`, `client_phone`) VALUES
-(5, 'John Doe', 'john_doe@gmail.com', '0123456789');
+(1, 'Vishruth VS', 'vishruthvs@gmail.com', '9999999999'),
+(2, 'Saketh Reddy', 'sakethreddy@gmail.com', '8888888888');
 
 -- --------------------------------------------------------
 
@@ -135,11 +136,11 @@ CREATE TABLE `reservations` (
 --
 
 INSERT INTO `reservations` (`reservation_id`, `client_id`, `car_id`, `pickup_date`, `return_date`, `pickup_location`, `return_location`, `canceled`, `cancellation_reason`) VALUES
-(1, 1, 1, '2021-05-11', '2021-05-17', 'Agadir', 'Agadir', 0, NULL),
-(2, 2, 3, '2021-04-30', '2021-05-06', 'Agadir', 'Agadir', 0, NULL),
-(3, 3, 4, '2021-04-30', '2021-05-06', 'Agadir', 'Agadir', 1, 'Changed my mind! Sorry'),
-(4, 4, 4, '2021-04-29', '2021-05-02', 'Casablanca', 'Agadir', 0, NULL),
-(5, 5, 4, '2024-03-02', '2024-03-05', 'Paris', 'Paris', 0, NULL);
+(1, 1, 1, '2024-05-11', '2024-05-17', 'Mysore', 'Bangalore', 0, NULL),
+(2, 2, 3, '2024-04-30', '2024-05-06', 'Mangalore', 'Udupi', 0, NULL),
+(3, 3, 4, '2024-04-30', '2024-05-06', 'Bangalore', 'Hyderabad', 1, 'Changed my mind! Sorry'),
+(4, 4, 4, '2024-04-29', '2024-05-02', 'Mandya', 'Srirangpatna', 0, NULL),
+(5, 5, 4, '2024-03-02', '2024-03-05', 'Mysore', 'Mumbai', 0, NULL);
 
 -- --------------------------------------------------------
 
@@ -161,7 +162,8 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`user_id`, `username`, `user_email`, `full_name`, `password`, `group_id`) VALUES
-(1, 'admin', 'admin.admin@gmail.com', 'Admin Admin', 'f7c3bc1d808e04732adf679965ccc34ca7ae3441', 0);
+(1, 'Sudeep', 'sudeep.admin@gmail.com', 'Sudeep Gowda', 'f7c3bc1d808e04732adf679965ccc34ca7ae3441', 0),
+(2,'Ajay', 'ajay.admin@gmail.com', 'Ajay G','f7c3bc1d808e04732adf679965ccc34ca7ae3441', 0);
 
 --
 -- Indexes for dumped tables
