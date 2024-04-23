@@ -4,7 +4,7 @@
 				<div class="row">
 					<div class="col-md-6">
 						<div class="copyright">
-							YahYa © 
+							Car Rentals© 
 							<script type="text/javascript"> 
 								document.write(new Date().getFullYear())
 							</script>
