@@ -2,7 +2,7 @@
 	session_start();
 
 	//Check If user is already logged in
-	if(isset($_SESSION['username_yahya_car_rental']) && isset($_SESSION['password_yahya_car_rental']))
+	if(isset($_SESSION['username_car_rental']) && isset($_SESSION['password_car_rental']))
 	{
         //Page Title
         $pageTitle = 'Dashboard';
