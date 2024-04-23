@@ -287,7 +287,7 @@
             <div class="col-lg-4 col-md-6">
                 <div class="footer_widget">
                     <a class="navbar-brand" href="">
-                        Yah<span style = "color:#04DBC0">Ya</span>&nbsp;CarRental
+                        <span style = "color:#04DBC0"></span>&nbsp;Car Rental
                     </a>
                     <p>
                         Getting dressed up and traveling with good friends makes for a shared, unforgettable experience.
@@ -329,7 +329,7 @@ Karnataka, India.
                     <p style = "margin-bottom:0px">Don't miss a thing! Sign up to receive daily deals</p>
                     <div class="subscribe_form">
                         <form action="#" class="subscribe_form" novalidate="true">
-                            <input type="email" name="EMAIL" id="subs-email" class="form_input" placeholder="Email Address...">
+                            <input type="email" name="EMAIL" id="subs-email" class="form_input" placeholder="Email Address">
                             <button type="submit" class="submit">SUBSCRIBE</button>
                             <div class="clearfix"></div>
                         </form>
