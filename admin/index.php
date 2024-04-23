@@ -61,9 +61,9 @@
 						if($count > 0)
 						{
 
-							$_SESSION['username_yahya_car_rental'] = $username;
-							$_SESSION['password_yahya_car_rental'] = $password;
-							$_SESSION['user_id_yahya_car_rental'] = $row['user_id'];
+							$_SESSION['username_car_rental'] = $username;
+							$_SESSION['password_car_rental'] = $password;
+							$_SESSION['user_id_car_rental'] = $row['user_id'];
 							header('Location: dashboard.php');
 							die();
 						}
