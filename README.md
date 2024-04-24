@@ -24,8 +24,8 @@ The website has two sides; 1- The client-side and 2- The admin side.
 <div>
 	<h3>Website DEMO</h3>
   	<ul>
-		<li>Client Page: http://3.110.213.211/</li>
-		<li>Admin Login Page: http://3.110.213.211/admin/</li>
+		<li>Client Page: http://54.209.180.198/</li>
+		<li>Admin Login Page: http://54.209.180.198/admin</li>
 	</ul>
 	<p>
 		Username: admin
