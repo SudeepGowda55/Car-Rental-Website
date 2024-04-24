@@ -41,7 +41,7 @@ CREATE TABLE `cars` (
 -- Dumping data for table `cars`
 --
 
-NSERT INTO `cars` (`id`, `car_name`, `brand_id`, `type_id`, `color`, `model`, `description`) VALUES
+INSERT INTO `cars` (`id`, `car_name`, `brand_id`, `type_id`, `color`, `model`, `description`) VALUES
 (1, 'Porsche Boxster', 6, 4, 'Red', '2017', 'Sleek, agile, and exhilarating, the Porsche Boxster delivers the ultimate driving experience with its timeless design and powerful performance, making every journey a thrill.'),
 (2, 'Audi A5', 1, 4, 'Red', '2017', 'Sophisticated and sporty, the Audi A5 combines elegant design with dynamic performance, offering a luxurious driving experience that captivates both heart and mind.'),
 (3, 'Mercedes-Benz CLS', 4, 4, 'Blue', '2019', 'Crafted to redefine elegance and performance, the Mercedes-Benz CLS embodies luxury with its sleek design and cutting-edge technology, offering an unmatched driving experience that exudes sophistication and power.'),
