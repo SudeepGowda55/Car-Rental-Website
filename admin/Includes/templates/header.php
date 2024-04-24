@@ -7,7 +7,7 @@
 	  	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	  	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	  	<meta name="description" content="Car Rental Website">
-	  	<meta name="author" content="JAIRI IDRISS">
+	  	<meta name="author" content="Team11">
 
   		<title><?php echo $pageTitle ?></title>
 
@@ -36,7 +36,7 @@
 					<div class="sidebar-brand-icon rotate-n-15">
 			  			<i class="bs bs-scissors-1"></i>
 					</div>
-					<div class="sidebar-brand-text mx-3">YahYa Car Rental</div>
+					<div class="sidebar-brand-text mx-3">Car Rental</div>
 		  		</a>
 
 		  		<!-- Divider -->
