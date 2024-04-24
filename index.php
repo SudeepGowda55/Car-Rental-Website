@@ -309,9 +309,6 @@
                             <i class="fas fa-map-marker-alt"></i>789, 4th Cross Road,
 Indiranagar,
 Bengaluru - 560038,
-Karnataka, India.789, 4th Cross Road,
-Indiranagar,
-Bengaluru - 560038,
 Karnataka, India.
                         </li>
                         <li>
