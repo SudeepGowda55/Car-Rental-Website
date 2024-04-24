@@ -2,7 +2,7 @@
 	session_start();
 
 	// IF THE USER HAS ALREADY LOGGED IN
-	if(isset($_SESSION['username_yahya_car_rental']) && isset($_SESSION['password_yahya_car_rental']))
+	if(isset($_SESSION['username_car_rental']) && isset($_SESSION['password_car_rental']))
 	{
 		header('Location: dashboard.php');
 		exit();
@@ -61,9 +61,9 @@
 						if($count > 0)
 						{
 
-							$_SESSION['username_yahya_car_rental'] = $username;
-							$_SESSION['password_yahya_car_rental'] = $password;
-							$_SESSION['user_id_yahya_car_rental'] = $row['user_id'];
+							$_SESSION['username_car_rental'] = $username;
+							$_SESSION['password_car_rental'] = $password;
+							$_SESSION['user_id_car_rental'] = $row['user_id'];
 							header('Location: dashboard.php');
 							die();
 						}
@@ -116,7 +116,7 @@
 		<footer class="sticky-footer bg-white">
 			<div class="container my-auto">
 		  		<div class="copyright text-center my-auto">
-					<span>Copyright &copy; Car Rental Website by JAIRI IDRISS 2021</span>
+					<span>Copyright &copy; Car Rental Website by Team 11</span>
 		  		</div>
 			</div>
 	  	</footer>

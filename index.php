@@ -9,11 +9,11 @@
 <section class = "home_section">
     <div class="section-header">
         <div class="section-title" style = "font-size:50px; color:white">
-            Find Best Car & Limousine
+            Find the best rental cars for your travels!!
         </div>
         <hr class="separator">
 		<div class="section-tagline">
-            From as low as $10 per day with limited time offer discounts
+            From as low as 2000 Rs per day with limited time offer discounts
 		</div>					
 	</div>
 </section>
@@ -39,9 +39,6 @@
                         </span>
                         Expert Technicians
                     </h4>
-                    <p>
-                        Usage of the Internet is becoming more common due to rapid advancement of technology and power.
-                    </p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
@@ -52,9 +49,6 @@
                         </span>
                         Professional Service
                     </h4>
-                    <p>
-                        Usage of the Internet is becoming more common due to rapid advancement of technology and power.
-                    </p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
@@ -65,9 +59,6 @@
                         </span>
                         Great Support
                     </h4>
-                    <p>
-                        Usage of the Internet is becoming more common due to rapid advancement of technology and power.
-                    </p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
@@ -78,9 +69,6 @@
                         </span>
                         Technical Skills
                     </h4>
-                    <p>
-                        Usage of the Internet is becoming more common due to rapid advancement of technology and power.
-                    </p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
@@ -91,9 +79,6 @@
                         </span>
                         Highly Recomended
                     </h4>
-                    <p>
-                        Usage of the Internet is becoming more common due to rapid advancement of technology and power.
-                    </p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
@@ -104,9 +89,6 @@
                         </span>
                         Positive Reviews
                     </h4>
-                    <p>
-                        Usage of the Internet is becoming more common due to rapid advancement of technology and power.
-                    </p>
                 </div>
             </div>
         </div>
@@ -122,17 +104,16 @@
             </div>
             <div class = "col-md-6 right-area" style = "padding:50px">
                 <h1>
-                    Globally Connected <br>
-                    by Large Network
+                    Reshaping the idea of <br>
+                    Car Rentals
                 </h1>
                 <p>
                     <span>
-                        We are here to listen from you deliver exellence
+                        We are here to listen from you and deliver convenient rental services
                     </span>
                 </p>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    Ut enim ad minim. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.
+                   Unlock unforgettable journeys with our premier car rental service. Experience convenience and reliability on every mile.Explore the world with ease, whether for business or pleasure. Our fleet awaits to elevate your travel experience. Book now and embark on your next adventure!
                 </p>
                 <a class="my-btn bttn" href="#">get details</a>
             </div>
@@ -145,11 +126,11 @@
     <div class = "container">
         <div class="section-header">
             <div class="section-title">
-                First Class Car Rental & Limousine Services
+                First Class Car Rental Services
             </div>
             <hr class="separator">
             <div class="section-tagline">
-                We offer professional car rental & limousine services in our range of high-end vehicles
+                We offer professional Car Rental in our range of vehicles
             </div>
         </div>
         <div class = "car-brands">
@@ -197,14 +178,14 @@
 					<div>
 						<div class = "form-group">
 							<label for="pickup_location">Pickup Location</label>
-							<input type = "text" class = "form-control" name = "pickup_location" placeholder = "34 Mainfield Road" v-model = 'pickup_location'>
+							<input type = "text" class = "form-control" name = "pickup_location" placeholder = "Mysuru" v-model = 'pickup_location'>
 							<div class="invalid-feedback" style = "display:block" v-if="pickup_location === null">
 								Pickup location is required
 							</div>
 						</div>
 						<div class = "form-group">
 							<label for="return_location">Return Location</label>
-							<input type = "text" class = "form-control" name = "return_location" placeholder = "34 Mainfield Road" v-model = 'return_location'>
+							<input type = "text" class = "form-control" name = "return_location" placeholder = "Bengaluru" v-model = 'return_location'>
 							<div class="invalid-feedback" style = "display:block" v-if="return_location === null">
 								Return location is required
 							</div>
@@ -240,29 +221,28 @@
             <div class="col-lg-6 sm-padding">
                 <div class="contact-info">
                     <h2>
-                        Get in touch with us & 
-                        <br>send us message today!
+                        Get in touch with us and
+                        <br>DM us today!
                     </h2>
                     <p>
                         Getting dressed up and traveling with good friends makes for a shared, unforgettable experience.
                     </p>
-                    <h3>
-                        198 West 21th Street, Suite 721 
-                        <br>
-                        New York, NY 10010
+                    <h3>123 Main Road, City Centre, 
+                 <br>
+			    New Delhi - 110001, India.
                     </h3>
                     <ul>
                         <li>
                             <span style = "font-weight: bold">Email:</span> 
-                            contact@yahyacarrental.com
+                            contact@carrental.com
                         </li>
                         <li>
                             <span style = "font-weight: bold">Phone:</span> 
-                            +88 (0) 101 0000 000
+                            +91 96639 61565
                         </li>
                         <li>
                             <span style = "font-weight: bold">Fax:</span> 
-                            +88 (0) 202 0000 001
+                            +91 98765 43210
                         </li>
                     </ul>
                 </div>
@@ -307,7 +287,7 @@
             <div class="col-lg-4 col-md-6">
                 <div class="footer_widget">
                     <a class="navbar-brand" href="">
-                        Yah<span style = "color:#04DBC0">Ya</span>&nbsp;CarRental
+                        <span style = "color:#04DBC0"></span>&nbsp;Car Rental
                     </a>
                     <p>
                         Getting dressed up and traveling with good friends makes for a shared, unforgettable experience.
@@ -326,13 +306,16 @@
                     <h3>Contact Info</h3>
                     <ul class = "contact_info">
                         <li>
-                            <i class="fas fa-map-marker-alt"></i>962 Fifth Avenue, 3rd Floor New York, NY10022
+                            <i class="fas fa-map-marker-alt"></i>789, 4th Cross Road,
+Indiranagar,
+Bengaluru - 560038,
+Karnataka, India.
                         </li>
                         <li>
-                            <i class="far fa-envelope"></i>contact@barbershop.com
+                            <i class="far fa-envelope"></i>contact@carrental.com
                         </li>
                         <li>
-                            <i class="fas fa-mobile-alt"></i>+123 456 789 101
+                            <i class="fas fa-mobile-alt"></i>+91 98765 43210
                         </li>
                     </ul>
                 </div>
@@ -343,7 +326,7 @@
                     <p style = "margin-bottom:0px">Don't miss a thing! Sign up to receive daily deals</p>
                     <div class="subscribe_form">
                         <form action="#" class="subscribe_form" novalidate="true">
-                            <input type="email" name="EMAIL" id="subs-email" class="form_input" placeholder="Email Address...">
+                            <input type="email" name="EMAIL" id="subs-email" class="form_input" placeholder="Email Address">
                             <button type="submit" class="submit">SUBSCRIBE</button>
                             <div class="clearfix"></div>
                         </form>

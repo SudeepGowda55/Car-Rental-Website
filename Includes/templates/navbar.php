@@ -6,8 +6,10 @@
                 <div class = "company_details">
                     <ul>
                         <li>
-                            <i class="fas fa-map-marker-alt"></i>
-                            184 Main Street East 8007
+                            <i class="fas fa-map-marker-alt"></i>                           
+123, XYZ Street,
+Bangalore - 560001,
+Karnataka, India.
                         </li>
                         <li>
                             <i class="fas fa-mobile-alt"></i>
@@ -33,7 +35,7 @@
     <nav class="navbar navbar-expand-lg navbar-light">
         <div class = "container">
             <a class="navbar-brand" href="#">
-                Yah<span style = "color:#04DBC0">Ya</span>&nbsp;CarRental
+                <span style = "color:#04DBC0"></span>&nbsp;CarRental
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#yahyaNavbar" aria-controls="yahyaNavbar" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
